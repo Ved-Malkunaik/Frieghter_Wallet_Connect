@@ -1,16 +1,18 @@
-# React + Vite
+# Freighter Wallet Connection (Introduction)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This simply connects a freighter wallet to a webapp. Also displays our public address and account balance after connecting a wallet.
 
-Currently, two official plugins are available:
+# How To run :
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Go to vs code ----> 2. open this Folder ----> 3. go to terminal ----> 3. cd stellar-wc ----> 4. npm run dev ----> 5. open localhost site(CTRL + click)
 
-## React Compiler
+# How It Works :
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Click on a Connect Wallet Button ----> 2. Freighter wallet popup will appear ---->
+   3. Connect Your Wallet to the local host ----> 4. Your Wallet address and balance will be displayed.
+  
+# Working Screenshots :
 
-## Expanding the ESLint configuration
+<img width="1911" height="975" alt="image" src="https://github.com/user-attachments/assets/0ad6da24-0171-4c3c-82c5-8b2357df8c1e" />
+<img width="1919" height="903" alt="image" src="https://github.com/user-attachments/assets/b123a544-17d4-419f-a067-c0f19a2db125" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
